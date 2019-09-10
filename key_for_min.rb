@@ -8,5 +8,7 @@ low_name = nil
     if low == nil || low > value
       low = value
       low_name = key
-      
+    end
+  end
+low_name
 end
